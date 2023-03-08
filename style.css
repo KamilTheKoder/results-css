@@ -1,0 +1,58 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  width: 700px;
+  height: 600px;
+  background-color: bisque;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-left {
+  width: 50%;
+  background: rgb(43, 32, 222);
+  background: linear-gradient(
+    0deg,
+    rgba(43, 32, 222, 1) 0%,
+    rgba(81, 81, 179, 1) 43%,
+    rgba(129, 129, 207, 1) 100%
+  );
+  border-radius: 30px;
+}
+
+.card-right {
+  width: 50%;
+  border-radius: 30px;
+}
+
+.score {
+  align-items: center;
+  background-color: rgba(43, 32, 222, 0.4);
+  border-radius: 50%;
+}
+
+.top-score {
+  font-size: 70px;
+  margin-bottom: 0px;
+}
+
+/* premade */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
