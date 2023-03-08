@@ -1,8 +1,10 @@
 body {
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-family: "Hanken Grotesk", sans-serif;
 }
 
 .container {
@@ -20,13 +22,14 @@ body {
 }
 
 .card-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 50%;
-  background: rgb(43, 32, 222);
   background: linear-gradient(
-    0deg,
-    rgba(43, 32, 222, 1) 0%,
-    rgba(81, 81, 179, 1) 43%,
-    rgba(129, 129, 207, 1) 100%
+    180deg,
+    hsl(252, 100%, 67%) 20%,
+    hsl(241, 81%, 54%) 80%
   );
   border-radius: 30px;
 }
@@ -37,8 +40,13 @@ body {
 }
 
 .score {
-  align-items: center;
-  background-color: rgba(43, 32, 222, 0.4);
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(
+    180deg,
+    hsla(256, 72%, 46%, 1) 20%,
+    hsla(241, 72%, 46%, 0.5) 80%
+  );
   border-radius: 50%;
 }
 
